@@ -1,14 +1,14 @@
 # Keep-bags-one-custom-prop
 This script is from https://github.com/swkeep/keep-bags and this is some custom-made for fun.
 
-#1. step download keep-bagsV2
+1. step download keep-bagsV2
 
 
 
 
 
 
-#2. The step is to go into files keep-bags/shared/props 
+2. The step is to go into files keep-bags/shared/props 
 and add these lines below backpack2
 
 backpack3 = {
@@ -28,7 +28,7 @@ backpack3 = {
 ![image](https://github.com/Zqnc/Keep-bags-one-custom-prop/assets/153567846/594b94ee-03c8-4403-b82f-2395a9645213)
 
 
-#3. The next one is to go to keep-bags/config and follow the photo:
+3. The next one is to go to keep-bags/config and follow the photo:
 
 
 ![image](https://github.com/Zqnc/Keep-bags-one-custom-prop/assets/153567846/80804e7d-f2f3-4bc3-adf1-57581d44bbbe)
