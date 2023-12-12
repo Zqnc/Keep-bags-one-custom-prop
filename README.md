@@ -81,6 +81,7 @@ If you have a bad position of the bag and if you use scully_emotemenu script do 
 
 
    For this backpack, i have an inventory image
+   
 (PNG FORMAT FOR BACKPACK3)
 
         
