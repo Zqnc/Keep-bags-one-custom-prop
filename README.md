@@ -45,9 +45,9 @@ After that go to [QB]/qb-core/shared/items and add this
 
 backpack3                    = { name = "backpack3", label = "Backpack", weight = 15000, type = "item", image = "backpack3.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "zync custom backpack" },
 
-THIS IS IT FOR THE CUSTOM PROP, SCRIPT WILL WORK WITH THIS PROP ON EVERY PED...
+THIS IS IT FOR THE CUSTOM PROP, THE SCRIPT WILL WORK WITH THIS PROP ON EVERY PED...
 
-If you have bad position of bag and you use scully_emotemenu script do this
+If you have a bad position of the bag and if you use scully_emotemenu script do this
 
 1. Go to scully_emotemenu/data/animations/prop_emotes.lua
 
@@ -77,4 +77,13 @@ If you have bad position of bag and you use scully_emotemenu script do this
         },
     },
 
+   ![image](https://github.com/Zqnc/Keep-bags-one-custom-prop/assets/153567846/13c178ea-f6b3-48e5-9212-f217e3a30ce8)
 
+
+   For this backpack, i have an inventory image
+        
+        ![backpack3](https://github.com/Zqnc/Keep-bags-one-custom-prop/assets/153567846/18ade6b6-0bde-4cab-b71d-4f87364efa59)
+
+   Add this in [qb]\qb-inventory\html\images
+
+Big thanks for https://github.com/swkeep/keep-bags/commits?author=swkeep for this script!
