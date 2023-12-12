@@ -1,5 +1,5 @@
 # Keep-bags-one-custom-prop
-This script is from https://github.com/swkeep/keep-bags and this is some custom made for fun.
+This script is from https://github.com/swkeep/keep-bags and this is some custom-made for fun.
 
 #1. step download keep-bagsV2
 
@@ -8,8 +8,8 @@ This script is from https://github.com/swkeep/keep-bags and this is some custom 
 
 
 
-#2. step is go in files keep-bags/shared/props 
-and add this lines below backpack2
+#2. The step is to go into files keep-bags/shared/props 
+and add these lines below backpack2
 
 backpack3 = {
         dict = 'amb@world_human_hiker_standing@female@base',
@@ -28,8 +28,10 @@ backpack3 = {
 ![image](https://github.com/Zqnc/Keep-bags-one-custom-prop/assets/153567846/594b94ee-03c8-4403-b82f-2395a9645213)
 
 
-#3. Next one is go to keep-bags/config and below follow the photo:
-![Uploading image.png…]()
+#3. The next one is to go to keep-bags/config and follow the photo:
+
+
+![image](https://github.com/Zqnc/Keep-bags-one-custom-prop/assets/153567846/80804e7d-f2f3-4bc3-adf1-57581d44bbbe)
 
 
 {
@@ -38,4 +40,41 @@ backpack3 = {
           size = 50000,
           prop = GetProp('backpack2') -- Use props from shared/props.lua
      },
+
+After that go to [QB]/qb-core/shared/items and add this
+
+backpack3                    = { name = "backpack3", label = "Backpack", weight = 15000, type = "item", image = "backpack3.png", unique = true, useable = true, shouldClose = true, combinable = nil, description = "zync custom backpack" },
+
+THIS IS IT FOR THE CUSTOM PROP, SCRIPT WILL WORK WITH THIS PROP ON EVERY PED...
+
+If you have bad position of bag and you use scully_emotemenu script do this
+
+1. Go to scully_emotemenu/data/animations/prop_emotes.lua
+
+2. Find 'Label = 'Backpack','
+
+3. Change it to this 
+    {
+        Label = 'Backpack',
+        Command = 'backpack',
+        Animation = 'nill',
+        Dictionary = 'move_p_m_zero_rucksack',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 24818,
+                    Name = 'p_michael_backpack_s',
+                    Placement = {
+                        vector3(0.080000, -0.140000, -0.050000),
+                        vector3(0.000000, 90.000000, 175.000000),
+                    },
+                },
+            },
+        },
+    },
+
 
