@@ -82,8 +82,10 @@ If you have a bad position of the bag and if you use scully_emotemenu script do 
 
    For this backpack, i have an inventory image
         
-        (https://imgur.com/OtC4B3q)
+        https://imgur.com/OtC4B3q   (PNG FORMAT FOR BACKPACK2)
 
    Add this in [qb]\qb-inventory\html\images
+   ![image](https://github.com/Zqnc/Keep-bags-one-custom-prop/assets/153567846/b6a01ab1-eea1-4359-ac43-a625869f3325)
+
 
 Big thanks for https://github.com/swkeep/keep-bags/commits?author=swkeep for this script!
