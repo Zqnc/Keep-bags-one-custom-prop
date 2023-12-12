@@ -2,6 +2,12 @@
 This script is from https://github.com/swkeep/keep-bags and this is some custom made for fun.
 
 #1. step download keep-bagsV2
+
+
+
+
+
+
 #2. step is go in files keep-bags/shared/props 
 and add this lines below backpack2
 
