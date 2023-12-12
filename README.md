@@ -51,7 +51,7 @@ If you have a bad position of the bag and if you use scully_emotemenu script do 
 
 1. Go to scully_emotemenu/data/animations/prop_emotes.lua
 
-2. Find 'Label = 'Backpack','
+2. Find Label = 'Backpack',
 
 3. Change it to this 
     {
