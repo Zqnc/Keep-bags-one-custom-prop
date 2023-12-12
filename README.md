@@ -26,3 +26,16 @@ backpack3 = {
     },
 
 ![image](https://github.com/Zqnc/Keep-bags-one-custom-prop/assets/153567846/594b94ee-03c8-4403-b82f-2395a9645213)
+
+
+#3. Next one is go to keep-bags/config and below follow the photo:
+![Uploading image.png…]()
+
+
+{
+          item = 'backpack3',
+          slots = 20,
+          size = 50000,
+          prop = GetProp('backpack2') -- Use props from shared/props.lua
+     },
+
