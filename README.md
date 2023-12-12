@@ -82,7 +82,7 @@ If you have a bad position of the bag and if you use scully_emotemenu script do 
 
    For this backpack, i have an inventory image
         
-        https://imgur.com/OtC4B3q
+        (https://imgur.com/OtC4B3q)
 
    Add this in [qb]\qb-inventory\html\images
 
